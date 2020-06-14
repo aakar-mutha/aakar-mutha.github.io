@@ -1,0 +1,99 @@
+/* CORE STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  /* background: var(--primary-color); */
+  background: #000404;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 3rem;
+  font-family: 'Muli';
+
+}
+
+
+#header{
+  position: fixed;
+  width: 100%;
+  background-color:#66fcf1 ;
+  height: 60px;
+  margin-left: 0px;
+  overflow: hidden;
+}
+
+#header p{
+margin-left: 60px;
+padding-left: 20px;
+font-size: 40px;
+color: #000404;
+justify-content: center;
+font-family:'Muli';
+overflow: hidden;
+}
+
+.name{
+margin-top: 20vh;
+/* display: block; */
+overflow: hidden;
+text-align: center;
+vertical-align: middle;
+font-family: 'Muli';
+font-size: 8vw;
+}
+
+.showcase{
+  color: azure;
+  overflow: hidden;
+}
+.VIT{
+font-size: 3vw;
+/* margin-left:21vw; */
+align-items: center;
+text-align: center;
+overflow: hidden;
+}
+
+.social-menu ul{
+  /* transform: translate(-50%,-50%); */
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  /* margin-left: 17vw; */
+  color: azure;
+  list-style: none;
+  display: flex;
+  margin-top: 5vh;
+  min-width: 100px;
+  overflow: hidden;
+  
+}
+.social-menu ul li{
+  margin: 0 3vw;
+  overflow: hidden;
+
+
+}
+.social-menu ul li .fa{
+  font-size: 40px;
+  color:#66fcf1;
+  transition: 600ms;
+  overflow: hidden;
+  
+
+}
+.social-menu ul li a{
+  position: relative;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
