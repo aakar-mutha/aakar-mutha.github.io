@@ -1,4 +1,3 @@
-var c = document.getElementById("check");
 function checkAddress(checkbox)
 {
     if (checkbox.checked)
@@ -21,9 +20,16 @@ function checkAddress(checkbox)
       $(".awards").show();
     }
 }
-
-function showsec(a)
+var c = document.querySelector(".toggler");
+function gosec(sec)
 {
-  c.prop("checked", false);
+  var elem = document.querySelector("." + sec);
+  c.checked = false;
+  checkAddress(c);
+  elem.scrollIntoView({behavior: "smooth"})
+}
+
+function resume(){
+  c.checked = false;
   checkAddress(c);
 }

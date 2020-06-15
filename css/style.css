@@ -42,7 +42,7 @@ hr{
   overflow: hidden;
 }
 .name{
-  margin-top: calc(50px + 15vh);
+  margin-top: calc(20px + 17vh);
   overflow: hidden;
   text-align: center;
   vertical-align: middle;
@@ -98,13 +98,11 @@ hr{
   margin-bottom: calc(20px + 5vh);
 }
 .education{
-  height: 100vh;
   max-width: 90%;
   margin-top: calc(20px + 5vh);
   margin-bottom: calc(20px + 5vh);
 }
 .skills{
-  height: 100vh;
   max-width: 90%;
   margin-top: calc(20px + 5vh);
   margin-bottom: calc(20px + 5vh);
