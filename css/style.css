@@ -4,11 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  /* background: var(--primary-color); */
+ /* background: var(--primary-color);
+  */
   background: #000404;
 }
 .intro{
@@ -20,7 +20,6 @@ body {
   overflow: hidden;
   padding: 0 3rem;
   font-family: 'Muli';
-
 }
 hr{
   border-bottom: 0.2px solid #66fcf1;
@@ -31,30 +30,27 @@ hr{
   width: 100%;
   background-color:#66fcf1 ;
   height: 60px;
-  margin-left: 0px;
   overflow: hidden;
 }
-
 #header p{
-margin-left: 60px;
-padding-left: 20px;
-font-size: 40px;
-color: #000404;
-justify-content: center;
-font-family:'Muli';
-overflow: hidden;
+  margin-left: 60px;
+  padding-left: 20px;
+  font-size: 40px;
+  color: #000404;
+  justify-content: center;
+  font-family:'Muli';
+  overflow: hidden;
 }
-
 .name{
-margin-top: calc(50px + 15vh);
-/* display: block; */
-overflow: hidden;
-text-align: center;
-vertical-align: middle;
-font-family: 'Muli';
-font-size: calc(40px + 5vw);
+  margin-top: calc(50px + 15vh);
+ /* display: block;
+  */
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Muli';
+  font-size: calc(40px + 5vw);
 }
-
 .showcase{
   color: azure;
   overflow: hidden;
@@ -65,7 +61,6 @@ font-size: calc(40px + 5vw);
   text-align: center;
   overflow: hidden;
 }
-
 .social-menu ul{
   display: inline-block;
   text-align: center;
@@ -76,21 +71,16 @@ font-size: calc(40px + 5vw);
   margin-top: 5vh;
   min-width: 100px;
   overflow: hidden;
-  
 }
 .social-menu ul li{
   margin: 0 3vw;
   overflow: hidden;
-
-
 }
 .social-menu ul li .fa{
   font-size: calc(10px + 2vw);
   color:#66fcf1;
   transition: 600ms;
   overflow: hidden;
-  
-
 }
 .social-menu ul li a{
   position: relative;
@@ -98,7 +88,6 @@ font-size: calc(40px + 5vw);
   text-align: center;
   overflow: hidden;
 }
-
 .experience{
   max-width: 90%;
   margin-top: calc(20px + 5vh);
@@ -128,19 +117,21 @@ font-size: calc(40px + 5vw);
   color: #66fcf1;
   font-size:calc(30px + 5vw) ;
   font-family: 'Muli';
-  margin-top: (10px + 2vh); 
+  margin-top:calc(10px + 2vh);
 }
-
 .type{
   color: #c5c6c7;
-  /* display: block; */
+ /* display: block;
+  */
   font-size:calc(12px + 1.3vw) ;
   font-family: 'Muli';
   max-width: 80%;
-  /* margin-top: (10px + 2vh);  */
+ /* margin-top: (10px + 2vh);
+  */
 }
 .period{
-  /* display: inline; */
+ /* display: inline;
+  */
   float: right;
   padding-top:2vh;
   padding-bottom:2vh;
