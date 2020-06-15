@@ -1,3 +1,4 @@
+var c = document.getElementById("check");
 function checkAddress(checkbox)
 {
     if (checkbox.checked)
@@ -19,4 +20,10 @@ function checkAddress(checkbox)
       $(".interests").show();
       $(".awards").show();
     }
-}   
+}
+
+function showsec(a)
+{
+  c.prop("checked", false);
+  checkAddress(c);
+}

@@ -43,13 +43,11 @@ hr{
 }
 .name{
   margin-top: calc(50px + 15vh);
- /* display: block;
-  */
   overflow: hidden;
   text-align: center;
   vertical-align: middle;
   font-family: 'Muli';
-  font-size: calc(30px + 6vw);
+  font-size: calc(20px + 7vw);
 }
 .showcase{
   color: #c5c6c7;
@@ -77,13 +75,13 @@ hr{
   overflow: hidden;
 }
 .social-menu ul li .fab{
-  font-size: calc(10px + 2vw);
+  font-size: calc(10px + 4vw);
   color:#66fcf1;
   transition: 600ms;
   overflow: hidden;
 }
 .social-menu ul li .far{
-  font-size: calc(10px + 2vw);
+  font-size: calc(10px + 4vw);
   color:#66fcf1;
   transition: 600ms;
   overflow: hidden;
@@ -127,6 +125,12 @@ hr{
   font-family: 'Muli';
   margin-top:calc(10px + 2vh);
 }
+.awa{
+  color: #66fcf1;
+  font-size:calc(20px + 4vw) ;
+  font-family: 'Muli';
+  margin-top:calc(10px + 2vh);
+}
 .type{
   color: #c5c6c7;
   font-weight: bold;
@@ -157,7 +161,7 @@ hr{
 }
 
 .grades{
-  max-width: 20%;
+  max-width: 50%;
   color:#66fcf1;
   font-size:calc(10px + 1vw) ;
   padding-top:2vh;
@@ -181,14 +185,14 @@ hr{
   overflow: hidden;
 }
 .logos ul li .fab{
-  font-size: calc(10px + 2vw);
+  font-size: calc(11px + 3vw);
   color:#66fcf1;
   transition: 600ms;
   overflow: hidden;
 }
 
 .logos ul li :hover{
-  font-size: calc(10px + 2vw);
+  font-size: calc(10px + 4vw);
   color:#c5c6c7;
   transition: 600ms;
   overflow: hidden;

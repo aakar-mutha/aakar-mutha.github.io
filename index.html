@@ -18,22 +18,23 @@
     <div class="intro">
       <header id="header">
         <div class="menu-wrap">
-          <input type="checkbox" class="toggler" onclick="checkAddress(this)">
+          <input type="checkbox" class="toggler" onclick="checkAddress(this)" id="check">
           <div class="hamburger">
             <div></div>
           </div>
+          <a name="about"></a>
           <p><b>Aakar Mutha</b></p>
           <div class="menu">
             <div>
               <div>
                 <ul>
-                  <li><a href="#header">About</a></li>
-                  <li><a href="#">Experience</a></li>
-                  <li><a href="#">Education</a></li>
-                  <li><a href="#">Skills</a></li>
-                  <li><a href="#">Interests</a></li>
-                  <li><a href="#">Awards</a></li>
-                  <li><a href="#">Resume</a></li>
+                  <li><a href="#about" onclick="showsec(this)">About</a></li>
+                  <li><a href="#exp">Experience</a></li>
+                  <li><a href="#edu">Education</a></li>
+                  <li><a href="#skill">Skills</a></li>
+                  <li><a href="#inter">Interests</a></li>
+                  <li><a href="#award">Awards</a></li>
+                  <li><a href="/resume.pdf" target="_blank">Resume</a></li>
                 </ul>
               </div>
             </div>
@@ -45,7 +46,7 @@
           <div class="name">
             <span >
               <b style="color: #66fcf1; letter-spacing: 1vw;">AAKAR</b> 
-              <div style="letter-spacing:0.9vw; padding-bottom: 0px;">MUTHA</div>
+              <div style="letter-spacing:0.8vw; padding-bottom: 0px;">MUTHA</div>
             </span>
           </div>
           <div class="VIT">
@@ -65,6 +66,7 @@
       </div>
     </div>
     <hr>
+    <a name="exp"></a>
     <div class="experience container">
       <span class="item"><b>Experience</b></span>
       <p class="type">CORE COMMITTE MEMBER , IOTHINC , VIT</p>
@@ -93,6 +95,7 @@
       </p>
     </div>
     <hr>
+    <a name="edu"></a>
     <div class="education container">
       <span class="item"><b>Education</b></span>
       <p class="type">VELLORE INSTITUTE OF TECHNOLOGY , VELLORE</p>
@@ -105,13 +108,14 @@
       <h2 class ="grades" >CGPA : 8.81</h2>
       <br>
       <p class="type">LATE P . JOG JUNIOR COLLEGE</p>
-      <p class="period"> 2018-Passout</p>
+      <p class="period"> 2018 - Passout</p>
       <p class="contents">
         Higher Secondary Certifiacte in Physics , Chemistry & Maths
       </p>
       <p class ="grades" >SECURED : 86.5%<p>
     </div>
     <hr>
+    <a name="skill"></a>
     <div class="skills container">
       <span class="item"><b>Skills</b></span>
       <p class="type">PROGRAMMING LANGUAGES AND TOOLS</p>
@@ -144,12 +148,13 @@
            <li><i class="fas fa-check"></i>Mobile-First, Responsive Design</li>
            <li><i class="fas fa-check"></i>Data Analyst</li>
            <li><i class="fas fa-check"></i>Web Development</li>
-           <li><i class="fas fa-check"></i>Android Development & AndroidStudio</li>
+           <li><i class="fas fa-check"></i>Android Development</li>
            <li><i class="fas fa-check"></i>Deep Learning</li>
         </ul>
        </div>
     </div>
     <hr>
+    <a name="inter"></a>
     <div class="interests container">
       <span class="item"><b>Interests</b></span>
       <p class="contents">
@@ -160,8 +165,9 @@
       </p>
     </div>
     <hr>
+    <a name="award"></a>
     <div class="awards container">
-      <span class="item"><b>Awards & Certifications</b></span>
+      <span class="awa"><b>Awards & Certifications</b></span>
       <div class="other-skills">
         <ul>
            <li><i class="fas fa-trophy"></i>Special Mention DEVSOC'19 </li>
