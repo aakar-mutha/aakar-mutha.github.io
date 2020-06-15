@@ -11,7 +11,9 @@ body {
   /* background: var(--primary-color); */
   background: #000404;
 }
-
+.intro{
+  height: 100vh;
+}
 .container {
   max-width: 80%;
   margin: auto;
@@ -20,8 +22,10 @@ body {
   font-family: 'Muli';
 
 }
-
-
+hr{
+  border-bottom: 0.2px solid #66fcf1;
+  border-top: 0.2px solid #66fcf1;
+}
 #header{
   position: fixed;
   width: 100%;
@@ -42,13 +46,13 @@ overflow: hidden;
 }
 
 .name{
-margin-top: 20vh;
+margin-top: calc(50px + 15vh);
 /* display: block; */
 overflow: hidden;
 text-align: center;
 vertical-align: middle;
 font-family: 'Muli';
-font-size: 8vw;
+font-size: calc(40px + 5vw);
 }
 
 .showcase{
@@ -56,19 +60,16 @@ font-size: 8vw;
   overflow: hidden;
 }
 .VIT{
-font-size: 3vw;
-/* margin-left:21vw; */
-align-items: center;
-text-align: center;
-overflow: hidden;
+  font-size: calc(10px + 2vw);
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
 }
 
 .social-menu ul{
-  /* transform: translate(-50%,-50%); */
   display: inline-block;
   text-align: center;
   justify-content: center;
-  /* margin-left: 17vw; */
   color: azure;
   list-style: none;
   display: flex;
@@ -84,7 +85,7 @@ overflow: hidden;
 
 }
 .social-menu ul li .fa{
-  font-size: 40px;
+  font-size: calc(10px + 2vw);
   color:#66fcf1;
   transition: 600ms;
   overflow: hidden;
@@ -96,4 +97,66 @@ overflow: hidden;
   display: block;
   text-align: center;
   overflow: hidden;
+}
+
+.experience{
+  max-width: 90%;
+  margin-top: calc(20px + 5vh);
+  margin-bottom: calc(20px + 5vh);
+}
+.education{
+  max-width: 90%;
+  margin-top: calc(20px + 5vh);
+  margin-bottom: calc(20px + 5vh);
+}
+.skills{
+  max-width: 90%;
+  margin-top: calc(20px + 5vh);
+  margin-bottom: calc(20px + 5vh);
+}
+.interests{
+  max-width: 90%;
+  margin-top: calc(20px + 5vh);
+  margin-bottom: calc(20px + 5vh);
+}
+.awards{
+  max-width: 90%;
+  margin-top: calc(20px + 5vh);
+  margin-bottom: calc(20px + 5vh);
+}
+.item{
+  color: #66fcf1;
+  font-size:calc(30px + 5vw) ;
+  font-family: 'Muli';
+  margin-top: (10px + 2vh); 
+}
+
+.type{
+  color: #c5c6c7;
+  /* display: block; */
+  font-size:calc(12px + 1.3vw) ;
+  font-family: 'Muli';
+  max-width: 80%;
+  /* margin-top: (10px + 2vh);  */
+}
+.period{
+  /* display: inline; */
+  float: right;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  color: #c5c6c7;
+  font-size:calc(10px + 1vw) ;
+  font-family: 'Muli';
+  max-width: 20%;
+  padding-left: 5vw;
+}
+.contents{
+  float: left;
+  display: block;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  color: #c5c6c7;
+  font-size:calc(10px + 1vw) ;
+  font-family: 'Muli';
+  max-width: 80%;
 }
