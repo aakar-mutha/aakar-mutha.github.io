@@ -49,10 +49,10 @@ hr{
   text-align: center;
   vertical-align: middle;
   font-family: 'Muli';
-  font-size: calc(40px + 5vw);
+  font-size: calc(30px + 6vw);
 }
 .showcase{
-  color: azure;
+  color: #c5c6c7;
   overflow: hidden;
 }
 .VIT{
@@ -76,7 +76,13 @@ hr{
   margin: 0 3vw;
   overflow: hidden;
 }
-.social-menu ul li .fa{
+.social-menu ul li .fab{
+  font-size: calc(10px + 2vw);
+  color:#66fcf1;
+  transition: 600ms;
+  overflow: hidden;
+}
+.social-menu ul li .far{
   font-size: calc(10px + 2vw);
   color:#66fcf1;
   transition: 600ms;
@@ -94,11 +100,13 @@ hr{
   margin-bottom: calc(20px + 5vh);
 }
 .education{
+  height: 100vh;
   max-width: 90%;
   margin-top: calc(20px + 5vh);
   margin-bottom: calc(20px + 5vh);
 }
 .skills{
+  height: 100vh;
   max-width: 90%;
   margin-top: calc(20px + 5vh);
   margin-bottom: calc(20px + 5vh);
@@ -121,17 +129,14 @@ hr{
 }
 .type{
   color: #c5c6c7;
- /* display: block;
-  */
+  font-weight: bold;
   font-size:calc(12px + 1.3vw) ;
   font-family: 'Muli';
   max-width: 80%;
- /* margin-top: (10px + 2vh);
-  */
+
 }
 .period{
- /* display: inline;
-  */
+
   float: right;
   padding-top:2vh;
   padding-bottom:2vh;
@@ -143,11 +148,71 @@ hr{
 }
 .contents{
   float: left;
-  display: block;
   padding-top:2vh;
   padding-bottom:2vh;
   color: #c5c6c7;
   font-size:calc(10px + 1vw) ;
   font-family: 'Muli';
   max-width: 80%;
+}
+
+.grades{
+  max-width: 20%;
+  color:#66fcf1;
+  font-size:calc(10px + 1vw) ;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  font-weight: bold;
+}
+
+.logos ul{
+  max-width: 90%;
+  display: inline-block;
+  justify-content: left;
+  list-style: none;
+  display: flex;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  min-width: 100px;
+  overflow: hidden;
+}
+.logos ul li{
+  margin: 0 2vw;
+  overflow: hidden;
+}
+.logos ul li .fab{
+  font-size: calc(10px + 2vw);
+  color:#66fcf1;
+  transition: 600ms;
+  overflow: hidden;
+}
+
+.logos ul li :hover{
+  font-size: calc(10px + 2vw);
+  color:#c5c6c7;
+  transition: 600ms;
+  overflow: hidden;
+}
+
+.other-skills{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  min-width: 100px;
+  overflow: hidden;
+}
+.other-skills ul{
+  margin-left: 1vw;
+}
+.other-skills ul li {
+  color: #c5c6c7;
+  font-size:calc(10px + 1vw) ;
+  transition: 600ms;
+  overflow: hidden;
+}
+
+.other-skills ul i {
+  color: #66fcf1;
+  font-size:calc(10px + 1vw) ;
+  margin-right: 10px;
+  overflow: hidden;
 }
