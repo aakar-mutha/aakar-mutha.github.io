@@ -91,8 +91,6 @@
      justify-content: center;
 }
  .menu-wrap .menu > div {
-    /* background: var(--overlay-color);
-     */
      display: none;
      background: #66fcf1;
      opacity: 0.6 ;
