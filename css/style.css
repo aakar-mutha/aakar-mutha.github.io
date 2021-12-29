@@ -42,13 +42,14 @@ hr{
   overflow: hidden;
 }
 .name{
-  margin-top: calc(20px + 17vh);
+  margin-top: calc(20px + 10vh);
   overflow: hidden;
   text-align: center;
   vertical-align: middle;
   font-family: 'Muli';
   font-size: calc(20px + 7vw);
 }
+
 .showcase{
   color: #c5c6c7;
   overflow: hidden;
@@ -58,6 +59,13 @@ hr{
   align-items: center;
   text-align: center;
   overflow: hidden;
+}
+.about{
+  font-size: calc(5px + 1vw);
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  padding : 1vw 10%;
 }
 .social-menu ul{
   display: inline-block;
@@ -134,7 +142,7 @@ hr{
   font-weight: bold;
   font-size:calc(12px + 1.3vw) ;
   font-family: 'Muli';
-  max-width: 80%;
+  max-width: 60%;
 
 }
 .period{
