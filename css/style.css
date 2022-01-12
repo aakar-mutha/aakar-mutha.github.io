@@ -61,11 +61,12 @@ hr{
   overflow: hidden;
 }
 .about{
-  font-size: calc(5px + 1vw);
+  /* font-size: calc(17px + 0.5vw); */
+  font-size: 1.5rem;
   align-items: center;
   text-align: center;
   overflow: hidden;
-  padding : 1vw 10%;
+  padding : 1vw 5%;
 }
 .social-menu ul{
   display: inline-block;
